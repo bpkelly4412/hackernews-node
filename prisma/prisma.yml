@@ -1,0 +1,9 @@
+
+endpoint: https://us1.prisma.sh/brendan-kelly-59e03b/hackernews-node/dev
+
+
+datamodel: datamodel.prisma
+
+generate:
+    - generator: javascript-client
+      output: ../src/generated/prisma-client
